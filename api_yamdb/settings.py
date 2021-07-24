@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'titles',
     'django_filters',
     'rest_framework',
+    'import_export',
 ]
 
 
@@ -63,6 +64,7 @@ DATABASES = {
     }
 }
 
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 AUTH_PASSWORD_VALIDATORS = [
     {
